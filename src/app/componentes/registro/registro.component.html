@@ -1,0 +1,31 @@
+<form [formGroup]="registroForm"  class="formulario" layout="row" layout-align="center" (ngSubmit)="onSubmit()">
+  <!--<div class="campo">
+    <label for="nombre">Nombre completo: </label>
+
+    <input matInput id="nombre" type="text" formControlName="nombre" required>
+  </div>-->
+  <div class="input">
+    <mat-form-field  class="example-full-width" appearance="fill">
+      <mat-label>Nombre completo</mat-label>
+      <input matInput type="text" placeholder="Ej. Alma Ortiz Garcia" formControlName="nombre"  required>
+    </mat-form-field>
+  </div>
+  <div class="input">
+    <mat-form-field  class="example-full-width" appearance="fill">
+      <mat-label>Correo</mat-label>
+      <input matInput type="email" placeholder="Ej. prueba@mail.com " formControlName="correo"  required>
+    </mat-form-field>
+  </div>
+  <div class="input">
+    <mat-form-field class="example-full-width" appearance="fill">
+      <mat-label>Cedula</mat-label>
+      <input matInput type="text" placeholder="Ej. PRUEBA456456" formControlName="cedula"  required>
+    </mat-form-field>
+    <app-input-rango></app-input-rango>
+    <button type="submit" class="boton" mat-raised-button color="primary" [disabled]="!registroForm.valid">Enviar</button>
+  </div>
+
+
+</form>
+
+

@@ -1,0 +1,29 @@
+nav a {
+  padding: 1rem;
+}
+
+.example-spacer {
+  flex: 1 1 auto;
+}
+
+.mat-toolbar {
+  background: #28698b;
+  color: rgb(255 255 255 / 87%);
+  margin-bottom: 40px;
+}
+.contenedor{
+  margin: 40px;
+}
+.example-card {
+  max-width: 400px;
+  margin:auto;
+  background-color: #00ffdc40; 
+  color:#004b72;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  
+  
+}
+

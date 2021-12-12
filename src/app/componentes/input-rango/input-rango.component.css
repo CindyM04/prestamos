@@ -1,0 +1,14 @@
+mat-slider {
+  width:100%;
+}
+.example-result-card .example-label-container.example-label-vertical {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  /*max-width: 68px;
+  height: 48px;*/
+}
+.nota{
+  color:brown;
+}

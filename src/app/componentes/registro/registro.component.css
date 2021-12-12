@@ -1,0 +1,26 @@
+
+.input{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+}
+.example-form {
+  min-width: 150px;
+  max-width: 500px;
+  width: 100%;
+}
+
+.example-full-width {
+  width: 50%;
+}
+.formulario{
+  margin: 20px;
+}
+
+.boton{
+  width: 50%;
+  background-color: #28698b;;
+
+}

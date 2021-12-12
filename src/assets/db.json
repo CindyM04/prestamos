@@ -1,0 +1,32 @@
+{
+  "solicitudes": [
+    {
+      "nombre": "Cindy Almanza",
+      "correo": "cindy@gmail.com",
+      "cedula": "CINDY789798",
+      "estado": "Rechazada",
+      "id": 1
+    },
+    {
+      "nombre": "Yareli Rodriguez",
+      "correo": "yareli@gmail.com",
+      "cedula": "YAR78979",
+      "estado": "Rechazada",
+      "id": 2
+    },
+    {
+      "nombre": "Efren Collazo",
+      "correo": "efren@gmail.com",
+      "cedula": "EWOI09583409",
+      "estado": "Aprobada",
+      "id": 3
+    },
+    {
+      "nombre": "Ricardo Catalan",
+      "correo": "rica@gmail.com",
+      "cedula": "RICA4564564",
+      "estado": "Rechazada",
+      "id": 4
+    }
+  ]
+}

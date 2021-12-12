@@ -1,0 +1,25 @@
+<mat-card class="example-result-card">
+  <mat-card-content>
+    <h3>Monto del préstamo</h3>
+    <small class="nota">*Monto mínimo de <strong>$1,000.00</strong> y el máximo es de <strong>$50,000.00</strong></small>
+    <br><br>
+
+    <div class="example-label-container" [class]="vertical ? 'example-label-vertical' : 'example-label-horizontal'">
+      <label id="example-name-label" class="example-name-label">Valor : $</label>
+      <label class="example-value-label">{{value}}</label>
+    </div>
+    <mat-slider
+        class="example-margin"
+        [disabled]="disabled"
+        [invert]="invert"
+        [max]="max"
+        [min]="min"
+        [step]="step"
+        [thumbLabel]="thumbLabel"
+        [tickInterval]="getSliderTickInterval()"
+        [(ngModel)]="value"
+        [vertical]="vertical"
+        aria-labelledby="example-name-label">
+    </mat-slider>
+  </mat-card-content>
+</mat-card>
